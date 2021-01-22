@@ -1,8 +1,6 @@
 ﻿using System.Reflection;
-using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
-using System.Windows;
 
 // Bir bütünleştirilmiş koda ilişkin Genel Bilgiler aşağıdaki öznitelikler kümesiyle
 // denetlenir. Bütünleştirilmiş kod ile ilişkili bilgileri değiştirmek için
@@ -21,25 +19,8 @@ using System.Windows;
 // erişmeniz gerekirse ComVisible özniteliğini o türde true olarak ayarlayın.
 [assembly: ComVisible(false)]
 
-//Yerelleştirilebilir uygulamalar oluşturmaya başlamak için,
-//dosyanızdaki <UICulture>CultureYouAreCodingWith</UICulture> özelliğini
-//bir <PropertyGroup> grubuna ayarlayın.  Örneğin, kaynak dosyalarınızda ABD ingilizcesi
-//kullanıyorsanız, <UICulture> özelliğini en-US olarak ayarlayın. Sonra aşağıdaki
-//NeutralResourceLanguage özniteliğinin açıklamasını kaldırın.  Proje dosyasındaki
-//UICulture ayarıyla eşleşmesi için alt satırdaki "en-US"i güncelleyin.
-
-//[assembly: NeutralResourcesLanguage("en-US", UltimateResourceFallbackLocation.Satellite)]
-
-
-[assembly: ThemeInfo(
-    ResourceDictionaryLocation.None, //temaya özgü kaynak sözlüklerinin bulunduğu yer
-                                     //(bir kaynak sayfada
-                                     // uygulama kaynak sözlüklerinde bulunamazsa kullanılır)
-    ResourceDictionaryLocation.SourceAssembly //genel kaynak sözlüğünün bulunduğu yer
-                                              //(bir kaynak sayfada
-                                              // uygulama veya herhangi bir temaya özgü kaynak sözlüklerinde bulunamazsa kullanılır)
-)]
-
+// Bu proje COM'un kullanımına sunulursa, aşağıdaki GUID tür kitaplığının kimliği içindir
+[assembly: Guid("950f82dc-db7b-422f-a449-d778c34570ce")]
 
 // Bir derlemenin sürüm bilgileri aşağıdaki dört değerden oluşur:
 //
