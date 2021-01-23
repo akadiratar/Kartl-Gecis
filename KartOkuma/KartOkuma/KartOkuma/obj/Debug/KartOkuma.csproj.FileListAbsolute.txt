@@ -1,0 +1,10 @@
+C:\Users\CODER\source\repos\KartliGecis\KartOkuma\KartOkuma\KartOkuma\bin\Debug\KartOkuma.exe.config
+C:\Users\CODER\source\repos\KartliGecis\KartOkuma\KartOkuma\KartOkuma\bin\Debug\KartOkuma.exe
+C:\Users\CODER\source\repos\KartliGecis\KartOkuma\KartOkuma\KartOkuma\bin\Debug\KartOkuma.pdb
+C:\Users\CODER\source\repos\KartliGecis\KartOkuma\KartOkuma\KartOkuma\obj\Debug\KartOkuma.csprojAssemblyReference.cache
+C:\Users\CODER\source\repos\KartliGecis\KartOkuma\KartOkuma\KartOkuma\obj\Debug\KartOkuma.KGS.resources
+C:\Users\CODER\source\repos\KartliGecis\KartOkuma\KartOkuma\KartOkuma\obj\Debug\KartOkuma.Properties.Resources.resources
+C:\Users\CODER\source\repos\KartliGecis\KartOkuma\KartOkuma\KartOkuma\obj\Debug\KartOkuma.csproj.GenerateResource.cache
+C:\Users\CODER\source\repos\KartliGecis\KartOkuma\KartOkuma\KartOkuma\obj\Debug\KartOkuma.csproj.CoreCompileInputs.cache
+C:\Users\CODER\source\repos\KartliGecis\KartOkuma\KartOkuma\KartOkuma\obj\Debug\KartOkuma.exe
+C:\Users\CODER\source\repos\KartliGecis\KartOkuma\KartOkuma\KartOkuma\obj\Debug\KartOkuma.pdb

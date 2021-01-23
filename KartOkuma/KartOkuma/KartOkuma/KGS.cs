@@ -7,14 +7,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace KartOkuma
 {
-    public partial class Form1 : Form
+    public partial class KGS : Form
     {
-        public Form1()
+        public KGS()
         {
             InitializeComponent();
+        }
+
+        SqlConnection con;
+        SqlDataReader dr;
+        SqlCommand cmd;
+
+
+
+
+        private void KGS_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("Abdulkadir ATAR");
+
         }
     }
 }
