@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="anasayfa.aspx" />
     <Content Include="assets\css\app-dark-rtl.css" />
     <Content Include="assets\css\app-dark-rtl.min.css" />
     <Content Include="assets\css\app-dark.css" />
@@ -221,10 +222,31 @@
     <Content Include="assets\pages\jquery.timeout.init.js" />
     <Content Include="assets\pages\jquery.treeview.init.js" />
     <Content Include="assets\pages\jquery.validation.init.js" />
-    <Content Include="login.html" />
+    <Content Include="login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="anasayfa.aspx.cs">
+      <DependentUpon>anasayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="anasayfa.aspx.designer.cs">
+      <DependentUpon>anasayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="home.Master.cs">
+      <DependentUpon>home.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.Master.designer.cs">
+      <DependentUpon>home.Master</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -345,6 +367,7 @@
     <Content Include="assets\scss\structure\_topbar.scss" />
     <Content Include="assets\scss\_variables-dark.scss" />
     <Content Include="assets\scss\_variables.scss" />
+    <Content Include="home.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
