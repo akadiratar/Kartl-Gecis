@@ -114,53 +114,26 @@
                                 </div><!--end card-body--> 
                             </div><!--end card--> 
                         </div><!--end col-->
-                        <div class="col-lg-6">
-                            <div class="card">
-                                <div class="card-body">  
-                                    <h4 class="header-title mt-0 mb-3">Organic Traffic in USA</h4>                                   
-                                    
-                                    <div class="row"> 
-                                        <div class="col-lg-7">
-                                            <div id="usa" class="drop-shadow-map" style="height: 300px"></div> 
-                                        </div><!--end col-->
-                                        <div class="col-lg-5 align-self-center">                                           
-                                            <div class="">
-                                                <span class="text-dark">Texas</span>
-                                                <small class="float-right text-muted ml-3 font-13">81%</small>
-                                                <div class="progress mt-2" style="height:3px;">
-                                                    <div class="progress-bar bg-pink" role="progressbar" style="width: 81%; border-radius:5px;" aria-valuenow="81" aria-valuemin="0" aria-valuemax="100"></div>
-                                                </div>
-                                            </div>
-
-                                            <div class="mt-3">
-                                                <span class="text-dark">Washington</span>
-                                                <small class="float-right text-muted ml-3 font-13">68%</small>
-                                                <div class="progress mt-2" style="height:3px;">
-                                                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 68%; border-radius:5px;" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
-                                                </div>
-                                            </div>   
-                                            <div class="mt-3">
-                                                <span class="text-dark">Wyoming</span>
-                                                <small class="float-right text-muted ml-3 font-13">48%</small>
-                                                <div class="progress mt-2" style="height:3px;">
-                                                    <div class="progress-bar bg-purple" role="progressbar" style="width: 48%; border-radius:5px;" aria-valuenow="48" aria-valuemin="0" aria-valuemax="100"></div>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="mt-3">
-                                                <span class="text-dark">Virginia</span>
-                                                <small class="float-right text-muted ml-3 font-13">32%</small>
-                                                <div class="progress mt-2" style="height:3px;">
-                                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 32%; border-radius:5px;" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100"></div>
-                                                </div>
-                                            </div>        
-                                        </div><!--end col-->
-                                    </div><!--end row-->                                     
-                                </div><!--end card-body--> 
-                            </div><!--end card--> 
-                        </div><!--end col-->
+                  
                     </div><!--end row-->
 
   </div>
 
+
+      <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/metismenu.min.js"></script>
+        <script src="assets/js/waves.js"></script>
+        <script src="assets/js/feather.min.js"></script>
+        <script src="assets/js/jquery.slimscroll.min.js"></script>
+        <script src="assets/js/jquery-ui.min.js"></script>
+
+        <script src="plugins/apexcharts/apexcharts.min.js"></script>
+        <script src="plugins/moment/moment.js"></script>
+        <script src="plugins/jvectormap/jquery-jvectormap-2.0.2.min.js"></script>
+        <script src="plugins/jvectormap/jquery-jvectormap-us-aea-en.js"></script>
+        <script src="assets/pages/jquery.analytics_dashboard.init.js"></script>
+
+        <!-- App js -->
+        <script src="../assets/js/app.js"></script>
 </asp:Content>
