@@ -177,13 +177,30 @@
             <ul class="metismenu left-sidenav-menu">
                 <li>
                     <a href="javascript: void(0);"><i class="ti-bar-chart"></i><span>Anasayfa</span><span class="menu-arrow"></span></a>                   
-                </li>            
+                </li> 
+
+                 <li>
+                    <a href="javascript: void(0);"><i class="ti-server"></i><span>Yönetici İşlemleri</span><span class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li class="nav-item"><a class="nav-link" href="yoneticiekle.aspx"><i class="ti-control-record"></i>Ekle</a></li>
+                        <li class="nav-item"><a class="nav-link" href="yoneticiduzenlesil.aspx"><i class="ti-control-record"></i>Güncelle-Sil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sifreislemleri.aspx"><i class="ti-control-record"></i>Şifre İşlemleri</a></li>
+                        <!-- <li>
+                            <a href="javascript: void(0);"><i class="ti-control-record"></i>Email <span class="menu-arrow left-has-menu"><i class="mdi mdi-chevron-right"></i></span></a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li><a href="../apps/email-inbox.html">Inbox</a></li>
+                                <li><a href="../apps/email-read.html">Read Email</a></li>
+                            </ul>
+                        </li>  -->
+                       
+                    </ul>
+                </li> 
 
                 <li>
                     <a href="javascript: void(0);"><i class="ti-server"></i><span>Kullanıcı İşlemleri</span><span class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
                     <ul class="nav-second-level" aria-expanded="false">
                         <li class="nav-item"><a class="nav-link" href="kullaniciekle.aspx"><i class="ti-control-record"></i>Ekle</a></li>
-                        <li class="nav-item"><a class="nav-link" href="kullaniciguncelle.aspx"><i class="ti-control-record"></i>Güncelle</a></li>
+                        <li class="nav-item"><a class="nav-link" href="kullaniciduzenle.aspx"><i class="ti-control-record"></i>Güncelle</a></li>
                         <!-- <li>
                             <a href="javascript: void(0);"><i class="ti-control-record"></i>Email <span class="menu-arrow left-has-menu"><i class="mdi mdi-chevron-right"></i></span></a>
                             <ul class="nav-second-level" aria-expanded="false">

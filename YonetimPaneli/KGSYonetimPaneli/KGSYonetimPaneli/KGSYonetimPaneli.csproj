@@ -224,9 +224,14 @@
     <Content Include="assets\pages\jquery.timeout.init.js" />
     <Content Include="assets\pages\jquery.treeview.init.js" />
     <Content Include="assets\pages\jquery.validation.init.js" />
+    <Content Include="kartekle.aspx" />
+    <Content Include="karttanimla.aspx" />
+    <Content Include="kullaniciduzenle.aspx" />
     <Content Include="kullaniciekle.aspx" />
     <Content Include="login.aspx" />
     <Content Include="Web.config" />
+    <Content Include="yoneticiduzenlesil.aspx" />
+    <Content Include="yoneticiekle.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="anasayfa.aspx.cs">
@@ -243,6 +248,27 @@
     <Compile Include="home.Master.designer.cs">
       <DependentUpon>home.Master</DependentUpon>
     </Compile>
+    <Compile Include="kartekle.aspx.cs">
+      <DependentUpon>kartekle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kartekle.aspx.designer.cs">
+      <DependentUpon>kartekle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="karttanimla.aspx.cs">
+      <DependentUpon>karttanimla.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="karttanimla.aspx.designer.cs">
+      <DependentUpon>karttanimla.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kullaniciduzenle.aspx.cs">
+      <DependentUpon>kullaniciduzenle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kullaniciduzenle.aspx.designer.cs">
+      <DependentUpon>kullaniciduzenle.aspx</DependentUpon>
+    </Compile>
     <Compile Include="kullaniciekle.aspx.cs">
       <DependentUpon>kullaniciekle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -258,6 +284,20 @@
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="yoneticiduzenlesil.aspx.cs">
+      <DependentUpon>yoneticiduzenlesil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yoneticiduzenlesil.aspx.designer.cs">
+      <DependentUpon>yoneticiduzenlesil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yoneticiekle.aspx.cs">
+      <DependentUpon>yoneticiekle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yoneticiekle.aspx.designer.cs">
+      <DependentUpon>yoneticiekle.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\css\app-dark-rtl.css.map" />

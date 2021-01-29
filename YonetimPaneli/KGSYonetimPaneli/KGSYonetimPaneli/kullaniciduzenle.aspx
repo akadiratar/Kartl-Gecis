@@ -1,14 +1,33 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/home.Master" AutoEventWireup="true" CodeBehind="kullaniciekle.aspx.cs" Inherits="KGSYonetimPaneli.kullaniciekle" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/home.Master" AutoEventWireup="true" CodeBehind="kullaniciduzenle.aspx.cs" Inherits="KGSYonetimPaneli.kullaniciduzenle" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="OrtaAlan1" runat="server">
-    <div> <br /> 
+     <div> <br /> 
+    
 
     <div class="row">
+         
                         <div class="col-lg-12">
                             <div class="card">
+                                <div class="card-body">
+                                    <h4 class="mt-0 header-title">Kullanıcı Ara</h4>
+                                         <div class="form-group">                                       
+                                            <div class="input-group">
+                                                <span class="input-group-prepend">
+                                                    <button type="button" class="btn btn-gradient-primary"><i class="fas fa-search"></i></button>
+                                                </span>
+                                                <input type="text" id="kullaniciarabtn" name="example-input1-group2" class="form-control" placeholder="ab152595">
+                                            </div>                                                    
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            <div class="card">
                                 <div class="card-body">        
-                                    <h4 class="mt-0 header-title">Kullanıcı Ekle</h4>                                    
+                                    <h4 class="mt-0 header-title">Kullanıcı Bilgileri</h4>                                    
                                     
                                     <div class="row">
                                         <div class="col-lg-6">
@@ -52,7 +71,7 @@
                                             </div>
                                             <div class="row">
                                             <div class="col-sm-12 text-right">
-                                                <button type="submit" class="btn btn-gradient-primary px-5 py-2">Kaydet</button>
+                                                <button type="submit" class="btn btn-gradient-primary px-5 py-2">Güncelle</button>
                                             </div>
                                             </div>
                                         </div>
