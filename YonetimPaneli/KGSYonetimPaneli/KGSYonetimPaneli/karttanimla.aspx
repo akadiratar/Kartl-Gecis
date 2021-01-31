@@ -50,7 +50,7 @@
                                             <div class="form-group row">
                                                 <label for="example-text-input" class="col-sm-2 col-form-label text-right">Kart ID</label>
                                                 <div class="col-sm-10 text-center">
-                                                    <input class="form-control" type="text" placeholder="A1265498213148" id="adsoyadinput">
+                                                    <input class="form-control" type="text" placeholder="A1265498213148" id="kartidinput">
                                                 </div>
                                             </div>                          
                                             <div class="row">

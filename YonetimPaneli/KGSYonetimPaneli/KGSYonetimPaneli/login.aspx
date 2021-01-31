@@ -41,7 +41,7 @@
                                         <p class="text-muted mb-0">Bilgi İşlem Müdürlüğü KGS</p>
                                     </div> <!--end auth-logo-text-->  
     
-                                     <form id="loginform" runat="server" class="form-horizontal auth-form my-4" action="#">                    
+                                     <form id="loginform" runat="server" class="form-horizontal auth-form my-4" action="#" method="post">                    
             
                                         <div class="form-group">
                                             <label for="username">Sicil</label>
@@ -49,7 +49,7 @@
                                                 <span class="auth-form-icon">
                                                     <i class="dripicons-user"></i> 
                                                 </span>                                                                                                              
-                                                <input type="text" autocomplete="off" class="form-control" id="username" placeholder="Örn: ab152595">
+                                                <input type="text" runat="server" autocomplete="off" class="form-control" id="username" placeholder="Örn: ab152595" value="ab152595" required="required"/>
                                             </div>                                    
                                         </div><!--end form-group--> 
             
@@ -59,13 +59,13 @@
                                                 <span class="auth-form-icon">
                                                     <i class="dripicons-lock"></i> 
                                                 </span>                                                       
-                                                <input type="password" class="form-control" id="userpassword" placeholder="Örn: Adalet">
+                                                <input type="password" runat="server" class="form-control" id="userpassword" placeholder="Örn: Adalet" value="adalet" required="required"/>
                                             </div>                               
                                         </div><!--end form-group-->
 
                                         <div class="form-group mb-0 row">
-                                            <div class="col-12 mt-2">
-                                                <button class="btn btn-gradient-primary btn-round btn-block waves-effect waves-light"  type="button">Giriş<i class="fas fa-sign-in-alt ml-1"></i></button>
+                                            <div class="col-12 mt-2">                                               
+                                                <asp:Button ID="Giris_Btn" runat="server" Text="Giriş" class="btn btn-gradient-primary btn-round btn-block waves-effect waves-light fas fa-sign-in-alt ml-1" onclick="btnGiris_Click" />
                                             </div><!--end col--> 
                                         </div> <!--end form-group-->                           
                                     </form><!--end form-->
