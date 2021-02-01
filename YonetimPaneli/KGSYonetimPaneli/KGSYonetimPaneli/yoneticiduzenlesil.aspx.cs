@@ -12,7 +12,7 @@ namespace KGSYonetimPaneli
     public partial class yoneticiduzenlesil : System.Web.UI.Page
     {
         string conString = ConfigurationManager.ConnectionStrings["sqlbaglantim"].ConnectionString;
-        private string veri="asd";
+  
 
         protected void btnAra_Click(object sender, EventArgs e)
         {
@@ -39,7 +39,7 @@ namespace KGSYonetimPaneli
                         SqlDataReader SqlDr = komut.ExecuteReader();
                         while (SqlDr.Read())
                         {
-                            veri = SqlDr["AdSoyad"].ToString();
+                            
                         }
                         
 
@@ -47,7 +47,7 @@ namespace KGSYonetimPaneli
 
 
                        // komut.ExecuteNonQuery();
-                        Response.Write("<script>alert('" + veri + " isimli kullanıcı bulundu.')</script>");
+                        Response.Write("<script>alert('isimli kullanıcı bulundu.')</script>");
                         SqlDr.Close();
                     }
                     else
@@ -63,7 +63,7 @@ namespace KGSYonetimPaneli
                 }
                 catch
                 {
-                    Response.Write("<script>alert('Hata "+veri+"')</script>");
+                    Response.Write("<script>alert('Hata ')</script>");
                 }
                 finally
                 {
